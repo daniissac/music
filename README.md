@@ -14,7 +14,7 @@ Harmonia is a minimalist, web-based music player that allows users to play local
 
 ## Demo
 
-You can try out Harmonia at: [https://daniissac.com/music/](https://daniissac.com/music/)
+You can try out Harmonia [here](https://daniissac.com/music/)
 
 ## How to Use
 
@@ -51,6 +51,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions, feel free to reach out to me at [reachme@daniissac.com](mailto:reachme@daniissac.com).
+If you have any questions, feel free to reach out to me [here](mailto:reachme@daniissac.com).
 
 Enjoy your music with Harmonia!

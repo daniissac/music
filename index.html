@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonia - Minimalist Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+</head>
+<body>
+    <div class="player">
+        <h1>Harmonia</h1>
+        <div id="album-art">
+            <img src="default-album-art.svg" alt="Album Art" id="album-art-img">
+        </div>
+        <audio id="audio"></audio>
+        <div class="controls">
+            <button id="prev" class="icon-button">
+                <img src="prev-icon.svg" alt="Previous" class="icon">
+            </button>
+            <button id="play" class="icon-button">
+                <img src="play-icon.svg" alt="Play" class="icon" id="play-icon">
+            </button>
+            <button id="next" class="icon-button">
+                <img src="next-icon.svg" alt="Next" class="icon">
+            </button>
+        </div>
+        <div class="song-info">
+            <p id="song-title">No song selected</p>
+            <p id="artist">Artist: Unknown</p>
+            <p id="album">Album: Unknown</p>
+        </div>
+        <input type="file" id="file-input" accept="audio/*" multiple>
+        <label for="file-input" class="file-input-label">Choose audio files</label>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html></html>
